@@ -1,0 +1,85 @@
+/* Buttons */
+
+.mainButton {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 10px 20px;
+}
+
+.smallButton {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  max-width: 100%;
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #5c5c5c;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 0px 20px;
+}
+
+/* Backgrounds: */
+.cookiebg {
+  background-color: rgb(104, 147, 255);
+  padding: 50px 100px;
+}
+
+.catbg {
+  background-color: rgb(227, 119, 175);
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.userbg {
+  background-color: rgb(209, 209, 209);
+  padding: 50px 100px;
+}
+
+/* Block elements style */
+
+.pStyling {
+  width: 100%;
+  max-width: 100%;
+  text-align: left;
+  line-height: 1.2;
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.catDiv {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.catImage {
+  max-width: 350px;
+}
+
+.catImg {
+  width: 100%;
+  height: auto;
+}
